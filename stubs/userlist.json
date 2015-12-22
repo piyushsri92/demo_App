@@ -1,0 +1,27 @@
+[
+	{
+		"id": "01",
+		"name": "Piyush",
+		"age": "24",
+		"sex": "Male"
+	},
+	{
+		"id": "02",
+		"name": "Kunal",
+		"age": "24",
+		"sex": "Male"
+	},
+	{
+		"id": "03",
+		"name": "Shoaib",
+		"age": "24",
+		"sex": "Male"
+	},
+	{
+		"id": "04",
+		"name": "Abhijeet",
+		"age": "24",
+		"sex": "Male"
+	}
+
+]

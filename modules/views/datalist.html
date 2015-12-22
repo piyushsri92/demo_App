@@ -1,0 +1,37 @@
+<div class = "container">
+
+<div class="bg-primary panel-mg row">
+	<div><div ng-click="goBack()" back-button class="col-xs-2 back-arrow"><h3><</h3></div></div>
+	<div><h3 class="heading-mg col-xs-6">User List</h3></div>
+	<div><input type="text" search-field ng-model="searchString" class="search-field col-xs-4" placeholder="search" /></div>
+</div>
+
+    <!--li ng-repeat="search in searchList | searchField:searchString">
+     	<p>{{search.name}}</p>
+     </li>-->
+
+<div class="card">
+  <div ng-repeat="user in dataList | filter:searchString">	  
+        <button type="button" class="btn btn-primary btn-lg btn-block button-mg" ng-click="datalistClicked()">{{user.name}}<span class="caret caret-mg"></span></button>
+		<div class="datalist-container form-horizontal" ng-show="dataActive">
+			  <div class="row">  
+			  	<label class="label-font"> Name : </label>
+			  	<!--label class="col-xs-1 label-font">:</label>-->
+			    <label class="label-font" style="float:right;">{{user.name}}</label> 
+			  </div>
+			  <div class="row">
+			    <label class="label-font"> Age : </label>
+			    <label class="label-font" style="float:right;">{{user.age}}</label>
+			  </div>  
+			  <div class="row">
+			    <label class="label-font"> Sex : </label>
+			    <label class="label-font" style="float:right;">{{user.sex}}</label>  
+			  </div>  
+	    </div>
+		    <div style="margin-bottom:4%;"></div>
+  </div>
+</div>
+<button ng-click="moreCome('/moreCome')">More</button>
+</div>
+</div>
+

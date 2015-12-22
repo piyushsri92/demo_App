@@ -1,0 +1,41 @@
+.datalist-container{
+	background-color: #ddd;
+	height:auto;
+	padding: 6% 12%;
+}
+.label-font{
+	font-size: 18px;
+	font-weight: 500 !important;
+}
+.caret-mg{
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+.button-mg{
+   padding-left: 8px;
+   text-align: left;
+}
+.panel-mg{
+	margin-bottom: 0px !important;
+	margin-top:0px !important;
+	line-height: 40px;
+    border: 3px solid #9DBEF1;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.heading-mg{
+  text-align: center;
+  margin-top:10px;
+}
+.back-arrow{
+	margin-top:-12px !important;
+	color:white;
+}
+.search-field{
+    margin-top: 7px;
+    line-height: 25px;
+    width: 26%;
+	background-color: #D3E8F9;
+    color: black;
+}
